@@ -388,7 +388,7 @@ async function main() {
   console.log("Seeding database...");
 
   const email = process.env.ADMIN_SEED_EMAIL ?? "admin@exemplo.com";
-  const password = process.env.ADMIN_SEED_PASSWORD ?? "AutoVia@2024";
+  const password = process.env.ADMIN_SEED_PASSWORD ?? "AutoVia-Demo-2026!";
   const passwordHash = await bcrypt.hash(password, 10);
 
   await db
