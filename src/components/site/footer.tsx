@@ -97,6 +97,18 @@ export function SiteFooter() {
             Área da loja →
           </Link>
         </div>
+
+        <p className="mt-4 text-center text-[10.5px] tracking-[0.08em] text-white/20">
+          <a
+            href="https://wa.me/5518998133524"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Falar com Murilo Mota no WhatsApp"
+            className="transition-colors hover:text-white/55"
+          >
+            Desenvolvido por Murilo Mota · 55 (18) 99813-3524
+          </a>
+        </p>
       </div>
     </footer>
   );
